@@ -14,3 +14,7 @@ docker run -p=8080:8080 docker-jenkins-job-dsl
 Once Jenkins is up and running go to http://192.168.59.103:8080
 
 I am using MacOS and Boot2Docker. If you are running Linux or on Windows the IP will be different.
+
+### Links
+
+- Job DSL API https://jenkinsci.github.io/job-dsl-plugin/

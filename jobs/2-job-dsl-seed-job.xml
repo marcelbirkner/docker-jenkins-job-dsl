@@ -22,7 +22,7 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers>
     <hudson.triggers.TimerTrigger>
-      <spec>45 H * * *</spec>
+      <spec>H * * * *</spec>
     </hudson.triggers.TimerTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
@@ -44,6 +44,7 @@ for(i in 0..10) {
     }
     triggers {
         scm(&apos;15/H * * * *&apos;)
+        githubPush()
     }
     steps {
       maven {
