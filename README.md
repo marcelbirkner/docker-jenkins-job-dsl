@@ -1,8 +1,16 @@
 ## Description
 
-Docker Container with Jenkins Job DSL examples.
+Docker Container with Jenkins Job DSL examples. For more details see blog article:
 
-### Getting started
+- https://blog.codecentric.de/en/2015/10/using-jenkins-job-dsl-for-job-lifecycle-management/
+
+### Getting started using Image from Docker Hub
+
+```
+docker run --publish=8080:8080 mbirkner/docker-jenkins-job-dsl
+```
+
+### Run Docker Container using GitHub repository
 
 ```
 git clone git@github.com:marcelbirkner/docker-jenkins-job-dsl.git
