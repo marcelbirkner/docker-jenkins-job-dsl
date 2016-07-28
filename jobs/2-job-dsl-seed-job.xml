@@ -43,7 +43,7 @@ for(i in 0..10) {
       }
     }
     triggers {
-        scm(&apos;15/H * * * *&apos;)
+        scm(&apos;H/15 * * * *&apos;)
         githubPush()
     }
     steps {

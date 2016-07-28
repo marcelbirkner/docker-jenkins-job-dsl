@@ -43,7 +43,7 @@ job(&quot;conference-app&quot;) {
     }
   }
   triggers {
-    scm(&apos;10/H * * * *&apos;)
+    scm(&apos;H/10 * * * *&apos;)
     githubPush()
   }
   steps {
